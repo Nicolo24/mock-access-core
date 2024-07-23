@@ -1,0 +1,6 @@
+# copy files to /home/lerolero/access/mock-access
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/lerolero/access/mock-access
+    - /bin/cp -r * $DEPLOYPATH
